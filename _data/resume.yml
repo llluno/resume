@@ -121,9 +121,8 @@ others: #其他列表显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
-  - text: "简历脚注"
   #   href: '/'
-  - text: "Made with &hearts; by NewFuture"
+  - text: "Made with &hearts; llluno"
     href: "https://github.com/NewFuture/CV/"
 
 #页面额外js脚本，如xx统计
