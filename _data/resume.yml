@@ -4,7 +4,7 @@
 title: "刘嘉诚"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "刘嘉诚"
-jobtitle: "求职意向" #可空不显示
+jobtitle: "" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
@@ -16,7 +16,7 @@ contact: #联系方式连接等3~5行
   href: 'tel:13057916678'
   icon: 'icons/phone.svg'
 - text: "mtman.site"
-  href: 'http://mtman.site'
+  href: 'https://llluno.github.io'
   icon: 'icons/web.svg'
 - text: "llluno"
   href: 'https://github.com/llluno'
@@ -33,10 +33,10 @@ main: #简历主要内容，
   - title: 浙江大学城市学院
     duration: "2017年 - 2019年"
     sub: 信息管理与信息系统 学士
-    detail: 主修信息管理、大数据挖掘、大数据理论等，期间获得GMC国际企业管理挑战赛国家三等奖
+    detail: 主修信息管理、大数据挖掘、大数据理论等
  
 - type: skills
-  name: Skills
+  name: 技术
   content:
   - title: 技术栈（常用、熟练）
     items: 
@@ -50,10 +50,11 @@ main: #简历主要内容，
     - Hadoop
     - hive
     - zookeeper
+    - flume
+    - Kafka
+    - SPSS
     
 
-    
-    
   - title: 技术栈（用过、了解）
     items: 
     - Scala
@@ -64,59 +65,47 @@ main: #简历主要内容，
     - Django
     - flink
      
+     
+  - title: 技术栈（学习中/计划学习）
+    items: 
+    - TensorFlow
+    - kubernetes
+    - spark mllib
+    - 代码整洁之道
+    - 机器学习（周志华）
 
   - title: 英语及其他
     items: 
     - CET4
-    - CET6
-
-- type: experience
-  name: 经验
-  content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
-    tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
-    #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - type: projects
-  name: Projects
+  name: 经历
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
+  - title: 商品离线推荐服务
+    duration: 2019年03月 - 至今
+    tags: 
+    - spark
+    - Hadoop
+    
+    
+    detail: 离线推荐服务是综合用户所有的历史数据，利用设定的离线统计算法和离线推荐算法周期性的进行结果统计与 保存，计算的结果在一定时间周期内是固定不变的，变更的频率取决于算法调度的频率。
+离线推荐服务主要计算一些可以预先进行统计和计算的指标，为实时计算和前端业务相应提供数据支撑。 而本人主要负责离线数据的加载和统计模块，对用户给商品的评分进行统计。
+    sub: 深圳市火煋人科技有限公司
+
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '其他'
+  name: '关于我'
   content: #选择需要的格式
   - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
+
+  - title: 兴趣
+    list: #单行列表
+    - 羽毛球；做饭；游泳；Vlog；
+    - 
+
   - title: 列表
     list:
     - 第一项
