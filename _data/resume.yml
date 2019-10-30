@@ -97,7 +97,8 @@ others: #其他列表显示
 - type: others #ID可以为空
   name: '关于我'
   content: #选择需要的格式
-  - 认真男孩
+  - title: 认真男孩
+    text: " "
 
   - title: 兴趣
     list: #单行列表
