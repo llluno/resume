@@ -79,17 +79,17 @@ main: #简历主要内容，
     - CET4
     - GMC国际企业管理挑战赛国家三等奖
     
-- type: experience
-  name: 经验
-  content:
-  - title: 大数据开发工程师
-    sub: 深圳市火煋人科技有限公司
-    duration: "2019年02月 - 2019年09月"
-    tags:
-    - spark
-    - Hadoop
+#- type: experience
+#  name: 经验
+#  content:
+#  - title: 大数据开发工程师
+#    sub: 深圳市火煋人科技有限公司
+#    duration: "2019年02月 - 2019年09月"
+#    tags:
+#    - spark
+#    - Hadoop
     
-    detail: 主要负责spark开发，对数据进行统计以及对离线推荐的学习和应用。
+#    detail: 主要负责spark开发，对数据进行统计以及对离线推荐的学习和应用。
     
 - type: projects
   name: 经历
