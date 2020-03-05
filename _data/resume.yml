@@ -10,7 +10,7 @@ photo: "assets/img/photo.jpg" #照片可空，不显示
 #联系方式
 contact: #联系方式连接等3~5行
   - text: "liuterrific@hotmail.com" #文本内容
-    href: 'mailto:liuterrific@hotmail.com' #链接，无链接则空  
+    href: 'mailto:liuterrific@hotmail.com' #链接，无链接则空
     icon: 'icons/email.svg' #图标 svg文件
   - text: "13057916678"
     href: 'tel:13057916678'
@@ -91,13 +91,13 @@ main: #简历主要内容，
       - Hadoop
       detail: 主要负责spark开发，对数据进行统计以及对离线推荐的学习和应用。
 
-  - title: 大数据开发工程师
-    sub: 上海致宇信息科技有限公司
-    duration: "2019年12月 - 至今"
-    tags:
-      - Java
-      - CDH
-    detail: 大数据产品的研发，大数据平台的开发
+    - title: 大数据开发工程师
+      sub: 上海致宇信息科技有限公司
+      duration: "2019年12月 - 至今"
+      tags:
+        - Java
+        - CDH
+      detail: 大数据产品的研发，大数据平台的开发
 
   - type: projects
     name: 经历
@@ -148,13 +148,13 @@ others: #其他列表显示
           - 抗压能力强：能够应对突发情况；不介意加班。
           - 学习能力强：搜索引擎 + CSDN + 官方文档能解决80%日常技术问题；善于检索和利用墙外丰富的技术资源；持续关注技术领域新闻动态。
 
-#- type: 
+#- type:
 #  name: '其他'
 #  content: #选择需要的格式
 #  - 单行文字
 #  - 如果有可以继续添加
 
-#footer 脚注，打印版和web版不同不显示    
+#footer 脚注，打印版和web版不同不显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
