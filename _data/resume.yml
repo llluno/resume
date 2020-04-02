@@ -104,7 +104,7 @@ main: #简历主要内容，
     name: 经历
     content:
       - title: 商品离线推荐服务
-        duration: 2019年03月 - 至今
+        duration: 2019年03月 - 2019年10月
         tags:
           - spark
           - Hadoop
