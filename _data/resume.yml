@@ -58,6 +58,8 @@ main: #简历主要内容，
           - Kafka
           - SPSS
           - bpmn
+          - Canal
+          - ODPS
 
 
       - title: 技术栈（用过、了解）
@@ -69,6 +71,7 @@ main: #简历主要内容，
           - Django
           - Flink
           - Neo4j
+          - Flutter
 
 
       - title: 技术栈（学习中/计划学习）
@@ -85,7 +88,7 @@ main: #简历主要内容，
   - type: experience
     name: 工作经验
     content:
-      - title: 大数据开发工程师
+      - title: 大数据开发工程师（实习）
         sub: 深圳市火煋人科技有限公司
         duration: "2019年02月 - 2019年09月"
         tags:
