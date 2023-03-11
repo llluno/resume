@@ -42,18 +42,19 @@ main: #简历主要内容，
     content:
       - title: 技术栈（常用、熟练）
         items:
-          - Java
           - Python
           - Scala
+          - Mongodb
+          - redis
           - 爬虫
           - SQL
           - Linux常用命令
           - Markdown
           - spark sql / spark streaming
           - Hadoop
-          - hive
-          - zookeeper
-          - flume
+          - Hive
+          - Zookeeper
+          - Flume
           - Kafka
           - SPSS
           - bpmn
@@ -61,20 +62,19 @@ main: #简历主要内容，
 
       - title: 技术栈（用过、了解）
         items:
-          - mongodb/redis
+          - Java
           - HBase
           - Docker
           - Kylin
           - Django
-          - flink
-          - neo4j
+          - Flink
+          - Neo4j
 
 
       - title: 技术栈（学习中/计划学习）
         items:
           - TensorFlow
-          - kubernetes
-          - spark mllib
+          - ESP32
 
       - title: 证书及其他奖项
         items:
@@ -112,7 +112,7 @@ main: #简历主要内容，
           - Vue
           - CDC
           - DB
-        detail: 数据运维工作，开发辅助性产品，负责数据仓的建设
+        detail: 开发辅助性产品，负责数据仓的建设、公共数据运维工作与公共数据开发利用、数据安全的推进与制度建设等。
 
   - type: projects
     name: 经历
@@ -227,6 +227,13 @@ main: #简历主要内容，
         detail: 通过核酸检测人员管理后台对人员进行维护后，自动将核酸检测预警信息发送至单位群内，实现核酸检测100%完成。
         sub: 乐清市大数据管理中心
       
+      - title: IRS与工作流程图
+        duration: 2022年4月-2022年6月
+        tags:
+          - 制度建设
+        detail: 通过对中心内所有工作流程的研究，将所有涉及IRS的工作绘制成流程图。入选全省2022年IRS利用优秀案例。
+        sub: 乐清市大数据管理中心
+        
       - title: 数据安全管理制度
         duration: 2022年8月-2022年12月
         tags:
@@ -239,7 +246,7 @@ main: #简历主要内容，
         tags:
           - Neo4j
           - python
-        detail: 通过对IRS的监控，对目录的变化进行通知，并且对目录之间的关联关系进行匹配，形成业务级与字段级的关系。
+        detail: 通过对IRS的监控，对目录的变化进行通知，并且对目录之间的关联关系进行匹配，形成业务级与字段级的关系，可通过查找某个目录，找出所有与其相关的其他目录。
         sub: 乐清市大数据管理中心
       #可继续添加更多内容
 
@@ -248,8 +255,8 @@ others: #其他列表显示
   - type: others #ID可以为空
     name: '关于我'
     content: #选择需要的格式
-      - title: 认真男孩
-        text: " "
+#       - title: 认真男孩
+#         text: " "
 
       - title: 兴趣
         list: #单行列表
@@ -260,7 +267,7 @@ others: #其他列表显示
         list:
           - 适应能力强：能够快速融入新环境、新群体。
           - 抗压能力强：能够应对突发情况。
-          - 学习能力强：搜索引擎 + 第三方社区 + 官方文档能解决80%日常技术问题；善于检索和利用墙外丰富的技术资源；持续关注技术领域新闻动态。
+          - 学习能力强：搜索引擎 + 第三方社区 + 官方文档能解决80%日常技术问题；善于检索和利用丰富的技术资源；持续关注技术领域新闻动态。
 
 #- type:
 #  name: '其他'
@@ -274,7 +281,7 @@ footer: #脚注多组
   screen:
     #   href: '/'
     - text: "Made with &hearts; llluno"
-      href: "https://github.com/NewFuture/CV/"
+      href: "https://llluno.github.io/resume/"
 
 #页面额外js脚本，如xx统计
 scripts:
