@@ -149,7 +149,7 @@ main: #简历主要内容，
         sub: 上海致宇信息科技有限公司
 
       - title: 流程图引擎开发
-        duration: 2020年1月-2022年4月
+        duration: 2020年1月-2020年4月
         tags:
           - bpmn
           - Vue
@@ -157,7 +157,7 @@ main: #简历主要内容，
         sub: 上海致宇信息科技有限公司
 
       - title: 银行数据报送平台
-        duration: 2020年2月-2022年4月
+        duration: 2020年2月-2020年4月
         tags:
           - bpmn
           - Java
