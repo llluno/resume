@@ -104,7 +104,7 @@ main: #简历主要内容，
 
       - title: 大数据开发工程师
         sub: 乐清市大数据管理中心
-        duration: "2020年5月 - 至今"
+        duration: "2020年5月 - 2023年3月"
         tags:
           - Java
           - CDH
@@ -113,6 +113,17 @@ main: #简历主要内容，
           - CDC
           - DB
         detail: 开发辅助性产品，负责数据仓的建设、公共数据运维工作与公共数据开发利用、数据安全的推进与制度建设等。
+      - title: 创业
+        sub: 
+        duration: "2023年4月 - 至今"
+        tags:
+          - PCB Design
+          - Python
+          - Vue
+          - MQTT
+          - DB
+          - 企业管理
+        detail: 完善企业流程、优化企业制度、改善人员管理方式与企业福利、优化制造工艺等。开发企业管理系统。研发电力配套物联网设备及配套平台等。
 
   - type: projects
     name: 经历
