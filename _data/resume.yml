@@ -60,24 +60,29 @@ main: #简历主要内容，
           - bpmn
           - Canal
           - ODPS
-
+          - Django
+          - Docker
+          - PCB Design
+          - ESP32
+          - STM32
+          - MQTT
 
       - title: 技术栈（用过、了解）
         items:
           - Java
           - HBase
-          - Docker
           - Kylin
-          - Django
           - Flink
           - Neo4j
           - Flutter
+          - Swift
+          - Swift UI
 
 
       - title: 技术栈（学习中/计划学习）
         items:
           - TensorFlow
-          - ESP32
+          
 
       - title: 证书及其他奖项
         items:
@@ -264,7 +269,18 @@ main: #简历主要内容，
         tags:
           - C
           - PCB Design
-        detail: 设计电力物联网集成设备，实现电网监控和远程运维。
+        detail: 设计电力物联网集成设备，实现电网监控和远程运维，实现多种连接方式、多种数据融合，做到单设备集成多种数据。
+        
+      - title: 电力配套平台
+        duration: 2023年10月-2024年7月
+        tags:
+          - MQTT
+          - Nginx
+          - Vue
+          - Python
+          - Redis
+          - Mysql
+        detail: 设计电力物联网综合平台，可以远程配置、远程监看，异常报警等功能。
         
       #可继续添加更多内容
 
