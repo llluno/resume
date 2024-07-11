@@ -32,7 +32,7 @@
 2. 设置`Repository name`仓库名如`CV`(仓库名与最后网站一致,可自行选择私有公开),然后在自己的仓库下进行此操作
 3. 修改: 打开[\_data/resume.yml](\_data/resume.yml)(或者resume.json)点击编辑(`Edit`)图标(内容和条目根据需要参考注释删减)
 4. 保存: 点击`Commit changes` (会自动commit)注意yaml格式(或者json格式)无误
-5. 稍等片刻(自动编译生成github pages),打开[{your-github-id}.github.io/CV/](https://newfuture.github.io/CV/) (命名与项目名一致)查看效果
+5. 稍等片刻(自动编译生成github pages),打开[{your-github-id}.github.io/CV/](https://llluno.github.io/CV/) (命名与项目名一致)查看效果
 
 ## contribution
 
