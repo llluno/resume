@@ -77,11 +77,6 @@ main: #简历主要内容，
           - Flutter
           - Swift
           - Swift UI
-
-
-      - title: 技术栈（学习中/计划学习）
-        items:
-          - TensorFlow
           
 
       - title: 证书及其他奖项
@@ -113,8 +108,8 @@ main: #简历主要内容，
           - CDC
           - DB
         detail: 开发辅助性产品，负责数据仓的建设、公共数据运维工作与公共数据开发利用、数据安全的推进与制度建设等。
-      - title: 创业
-        sub: 
+      - title: 企业管理与产品研发
+        sub: 创业
         duration: "2023年4月 - 至今"
         tags:
           - PCB Design
